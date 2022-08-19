@@ -15,12 +15,15 @@
 ?>
 
 
-<p>git --version</p> <br />
-<p>git config --global user.name "MathewsDomingos"</p> <br />
-<p>git config --global user.email "mateusdomingos.etec@gmail.com"</p> <br />
-<p>git init</p> <br /> 
-<p>git add index.php</p> <br />
-<p>git commit -m "First Commit"</p> <br />
+<p>git --version</p> 
+<p>git config --global user.name "MathewsDomingos"</p>
+<p>git config --global user.email "mateusdomingos.etec@gmail.com"</p>
+<p>git init</p>
+<p>git add index.php</p>
+<p>git commit -m "First Commit"</p>
+<p>git branch -M main</p> 
+<p>git remote add origin https://github.com/MathewsDomingos/Programacao-Web.git</p> 
+<p>git push -u origin main</p>
 
 <body>
     
