@@ -38,6 +38,13 @@
         $tabuada[3] = array(0,1,2,3,4);
         $tabuada[4] = array(0,1,2,3,4);
 
+        $tabuada[4] = array();
+        $tabuada[4] [0] = 0;
+        $tabuada[4] [1] = 4;
+        $tabuada[4] [2] = 8;
+        $tabuada[4] [3] = 12;
+        $tabuada[4] [4] = 16;
+
         echo "<pre>";
         print_r($tabuada);
         echo "</pre>";
