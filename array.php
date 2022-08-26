@@ -49,6 +49,27 @@
         print_r($tabuada);
         echo "</pre>";
 
+        $armario = array();
+        $armario["Porta 01"] = array("Fio 2mm", "Fio 4mm", "Fio", "Fio terra");
+        $armario["Porta 02"] = array();
+        $armario["Gavetinha"] = array();
+
+        array_push($armario["Gavetinha"], "Brincos");
+        array_push($armario["Gavetinha"], "Aneis");
+        array_push($armario["Gavetinha"], "Berloques");
+        array_push($armario["Gavetinha"], "Pulseiras");
+
+        $armario["Porta 02"][0] = "Porcas";
+        $armario["Porta 02"][1] = "Parafuso";
+        $armario["Porta 02"][2] = "Arruela";
+        $armario["Porta 02"][3] = "Pregos";
+
+        echo "<pre>";
+        print_r($armario);
+        echo "</pre>";
+
+
+
 
     ?>
 
