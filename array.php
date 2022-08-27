@@ -31,7 +31,7 @@
         echo "</pre>";*/
 
 
-        $tabuada = array(0,1,2,3,4);
+        /*$tabuada = array(0,1,2,3,4);
         $tabuada[0] = array(0,1,2,3,4);
         $tabuada[1] = array(0,1,2,3,4);
         $tabuada[2] = array(0,1,2,3,4);
@@ -47,7 +47,7 @@
 
         echo "<pre>";
         print_r($tabuada);
-        echo "</pre>";
+        echo "</pre>";*/
 
         $armario = array();
         $armario["Porta 01"] = array("Fio 2mm", "Fio 4mm", "Fio", "Fio terra");
